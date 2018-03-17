@@ -1,0 +1,73 @@
+
+            <li class="repo-name dropdown-toggle">
+                <a href="#" id="repo-name" data-toggle="modal" data-target="#repo-modal">repository</a>
+            </li>
+			
+			
+
+			
+			
+			
+			    <div id="repo-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <ul class="list-group"id="repo-dropdown" role="menu" aria-labelledby="repo-name">
+          </ul>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary disabled" id="cloneButton" onclick="cloneRepo()">Clone</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+	
+	
+	
+	  <div class="modal-dialog">
+    <div class="modal-content">
+      <ul class="list-group"id="profile-info-dropdown" role="menu" aria-labelledby="profile-info">
+      </ul>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+  </div>
+  
+  
+      $('#myModal').modal('show');
+	  
+	  <input type="text" name="bookId" id="bookId" value="" readonly/>
+	  
+	   $(".modal-body #bookId").val('yoooooooooo');
+	   
+	         //let emailyeah = document.getElementById('emailAddress').innerHTML;//= 't';//getEmail(nodeId)'';
+      //console.log(emailyeah);
+      //console.log("------");
+      //console.log(getEmail(nodeId));
+  
+  
+  
+    <div class="container">
+  <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
