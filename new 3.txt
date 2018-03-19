@@ -1,0 +1,13 @@
+
+
+      let email = null;
+      if (flag == "abstract") {
+        email = abNodes.get(nodeId)['email'];
+      } else if ("node") {
+        email = nodes.get(nodeId)['email'];
+      } else {
+        email = bsNodes.get(nodeId)['email'];
+      }
+	  
+	  
+	  
